@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aviro.demoblockchain.dashBoard"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/u_name"/>
+
+    <Button
+        android:id="@+id/viewBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:onClick="viewBlock"
+        android:text="View Block" />
+
+    <Button
+        android:id="@+id/addBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:onClick="addBlock"
+        android:text="Add new" />
+
+    <Button
+        android:id="@+id/permit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:onClick="permit"
+        android:text="Permit" />
+
+    <Button
+        android:id="@+id/users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:onClick="viewUsers"
+        android:text="View Users" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:gravity="center"
+        android:onClick="back"
+        android:text="back" />
+</RelativeLayout>
